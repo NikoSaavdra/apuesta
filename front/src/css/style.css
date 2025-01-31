@@ -1,5 +1,58 @@
-.table, th, td {
-    border: 1px solid black;
+/* Estilos para la tabla */
+table {
+    width: 100%;
     border-collapse: collapse;
-
+    margin-top: 20px;
 }
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.center-button-container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;            
+    position: absolute;       
+    width: 100%;            
+}
+
+.center-button-container button {
+    font-size: 18px;          
+    padding: 10px 20px;       
+    background-color: #007bff; 
+    color: white;             
+    border: none;            
+    border-radius: 5px;       
+    cursor: pointer;          
+    transition: background-color 0.3s ease; 
+}
+
+.center-button-container button:hover {
+    background-color: #0056b3; 
+}
+
+.detalle-partido {
+    margin: 0 auto;              
+    padding: 20px;               
+    border: 1px solid #ccc;      
+    background-color: #f9f9f9;   
+    border-radius: 8px;          
+    width: 50%;                 
+}
+
+.detalle-partido p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
